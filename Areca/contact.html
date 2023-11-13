@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family-Poppins:wght@100;200;300;400;500;600;700;800;900&display-swap');
+        section{
+            padding: 40px 15%;
+        }
+        .contact{
+            background: #101010;
+            height: 100%;
+            width: 100%;
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            align-items: center;
+            grid-gap: 6rem;
+        }
+        .contact-img img{
+            max-width: 100%;
+            width: 720px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .contact-form h1{
+            font-size: 50px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        span{
+            color: #f9004d;
+        }
+        .contact-form p{
+            color: #c6c9d8bf;
+            letter-spacing: 1px;
+            line-height: 26px;
+            font-size: 1.5rem;
+            margin-bottom: 3.8rem;
+        }
+        .contact-form form{
+            position: relative;
+        }
+        .contact-form form input,
+        form textarea{
+            width: 100%;
+            padding: 17px;
+            border: none;
+            outline: none;
+            background: #191919;
+            color: #fff;
+            font-size: 1.1rem;
+            margin-bottom: 0.7rem;
+            border-radius: 10px;
+            
+        }
+        .contact-form textarea{
+            resize: none;
+            height: 200px;
+        }
+        .contact-form form .btn{
+            display: inline-block;
+            background: #f9004d;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            width: 220px;
+            transition: ease .20s;
+            cursor: pointer;
+        }
+        .contact-form form .btn:hover{
+            border: 2px solid #f9004d;
+            background: transparent;
+            transform: scale(1.1);
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="nav-list">
+        <ul>
+            <li class="logo">ArEca </li>
+            <li><a class="active" href="home.html" target="_blank">Home</a></li>
+            <li> <a href="abouatus page.html" target="_blank">About Us </a></li>
+            <li><a href="service.html" target="_blank">Services</a> </li> 
+      
+            <li><a href="cont.html" target="_blank">Contact Us</a></li>
+    
+        </ul>
+        </div>
+    
+    <section class="contact">
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <p>
+                <i class="fa fa-map-marker" style="color: #fff;"> Address:Karnataka,India</i>
+                <i class="fa fa-phone" style="color: #fff;"> Contact:+91 8073808507</i>
+
+                <i class="fa fa-envelope" style="color: #fff;"> Email: keerthanackm@gmail.com</i>
+
+                
+               
+                
+
+            </p>       
+ <form action="">
+            <input type="" placeholder="Your Name" required>
+            <input type="email " name="email" id="" placeholder="E-mail" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messeage" required></textarea>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+        </div>
+        <div class="contact-img">
+            <img src="img/WhatsApp Image 2023-11-06 at 2.55.35 PM.jpeg" alt="">
+        </div>
+
+    </section>
+    
+</body>
+</html>
